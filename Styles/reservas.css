@@ -1,0 +1,69 @@
+/* Estilos barra de navegacion*/
+.bg-nav{
+    background-color:rgb(23, 119, 23);
+}
+.bg-footer{
+    background-image: url("./img/imagen_footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    color: white;
+    display: flex; 
+    justify-content: center;
+}
+
+
+/*fin barra de navegacion*/
+.bg-h1{
+    
+    background-image: url("./img/Bar2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    color: white;
+    display: flex; 
+    justify-content: center;
+   
+}
+/*Colores de letra*/
+.bbk-color{
+    color: rgb(23, 119, 23)
+    
+}
+
+.form-control {
+    border-radius: .2rem;
+    border: 1px solid rgb(150, 145, 145);
+    padding: .3rem;
+}
+
+.form-control:hover {
+    border-radius: .2rem;
+    border: 1px solid rgb(23, 119, 23);
+    padding: .3rem;
+}
+
+.main-button {
+    padding: 13px;
+    border-radius:4px; /* 1rem = 16px */
+    text-decoration: none; 
+   
+    
+
+/* TRANSITION */
+transition-property: background-color, color, border-radius; /*Deben ser las mismas en el : hover */
+transition-duration: 1s;
+background-color:#000000;
+color:white;
+}
+
+.main-button:hover {
+    background-color: rgb(23, 119, 23);
+    color:#000000;
+    border-radius: 20px;
+}
+
+
+
+
+    
